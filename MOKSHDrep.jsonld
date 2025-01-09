@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "MOKSH "
+    },
+    "motivations": {
+      "@value": "As a DRep, I aim to leverage my experiences to bring thoughtful, data-driven, and community-focused perspectives to the table. My objective is to act as a steward of Cardano, ensuring its governance remains transparent, inclusive, and aligned with its long-term vision."
+    },
+    "objectives": {
+      "@value": "By becoming a DRep, I aspire to contribute meaningfully to Cardano’s evolution, ensuring it remains a beacon of decentralized governance."
+    },
+    "paymentAddress": {
+      "@value": "addr1qx4s7kka6ddyty6esy46yc336l4tr9xzz03nlsheuh3jfe9n3dffanc56tqhzqfncunatyys5pfpmdppzlg79wyxd69sx84wdm"
+    },
+    "qualifications": {
+      "@value": "As a stake pool operator, I have been deeply engaged with the ecosystem, gaining insights into the operational and community aspects of Cardano. My professional background involves analyzing complex systems, identifying opportunities, and making strategic decisions. This aligns closely with the responsibilities of a DRep, where sound judgment and a forward-thinking mindset are critical."
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "https://x.com/MokshPool"
+        },
+        "uri": {
+          "@value": "https://x.com/MokshPool"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "DRep ID on X Bio"
+        },
+        "uri": {
+          "@value": "https://x.com/MokshPool"
+        }
+      }
+    ]
+  }
+}
