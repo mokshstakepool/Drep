@@ -48,8 +48,9 @@
       }
     }
   },
+  "authors": [],
   "body": {
-    "comment": "Voting NO, due to the lack of a monitoring and verification/recovery plan to assess the impact of this governance action. Will vote yes in the future if the proposal includes monitoring mechanisms, a recovery plan and contingency measures. Also recommend that future proposals explicitly include these items to enhance transparency and constitutional alignment."
+    "comment": "Reasons why I am voting YES.\n\n1. It unlocks treasury funds to drive Cardano’s ecosystem growth, with delays risking missed opportunities.\n\n2. The 350M ADA is a flexible cap, allowing careful allocation based on proposal merit.\n\n3. It balances support for IOG and community projects, promoting equitable resource distribution.\n\n4. Funding projects that boost activity increases transaction fees, replenishing the treasury faster.\n\n5. Delaying approval could stall Cardano’s momentum, weakening its competitive edge in innovation and adoption.\n\n\n"
   },
   "hashAlgorithm": "blake2b-256"
 }
